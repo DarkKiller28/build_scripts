@@ -3,13 +3,13 @@
 rm -rf .repo/local_manifests/
 
 # repo init rom
-repo init -u https://github.com/HorizonDroidLab/manifest.git -b fifteen --git-lfs
+repo init -u https://github.com/Project-Mist-OS/manifest -b 15 --git-lfs
 echo "=================="
 echo "Repo init success"
 echo "=================="
 
 # Local manifests
-git clone https://github.com/germaniumsculk/local_manifests_clo .repo/local_manifests -b horizondroid-15-qpr2
+git clone https://github.com/DarkKiller28/local_manifests_clo .repo/local_manifests -b mist/a15
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -21,7 +21,7 @@ echo "Sync success"
 echo "============="
 
 # Curl Signing Files
-git clone https://github.com/germaniumsculk/certs
+# git clone https://github.com/germaniumsculk/certs
 
 #SIGNING_KEY_PATH ?= certs
 #RELEASE_KEY := $(SIGNING_KEY_PATH)/releasekey
@@ -33,7 +33,7 @@ git clone https://github.com/germaniumsculk/certs
 # Have to add these flags in device.mk
 
 # Export
-export BUILD_USERNAME=Germanium 
+export BUILD_USERNAME=DarkKiller28
 export BUILD_HOSTNAME=crave
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 echo "======= Export Done ======"
@@ -43,7 +43,7 @@ source build/envsetup.sh
 echo "============="
 
 # Lunch
-lunch horizon_mi439-bp1a-userdebug
+lunch mistify_mi439-bp1a-userdebug
 
 # Build
-mka horizon
+mist b
