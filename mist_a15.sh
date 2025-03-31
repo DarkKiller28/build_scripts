@@ -43,7 +43,7 @@ source build/envsetup.sh
 echo "============="
 
 # Lunch
-lunch mistify_mi439-bp1a-userdebug
+lunch_mi439-bp1a-userdebug
 
 # Build
-mist b
+mka bacon
