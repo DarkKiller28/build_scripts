@@ -55,3 +55,8 @@ crave run --clean --no-patch -- "curl https://raw.githubusercontent.com/DarkKill
 ```
 crave run --clean --no-patch -- "curl -v https://raw.githubusercontent.com/DarkKiller28/build_scripts/mi439/evo_a15.sh | bash"
 ```
+
+• MitsOS
+```
+crave run --clean --no-patch -- "curl https://raw.githubusercontent.com/DarkKiller28/build_scripts/mist_a15.sh | bash"
+```
