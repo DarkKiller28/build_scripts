@@ -57,8 +57,9 @@ crave run --clean --no-patch -- "curl -v https://raw.githubusercontent.com/DarkK
 ```
 
 • EvolutionX A14
+```
 crave run --clean --no-patch -- "curl -v https://raw.githubusercontent.com/DarkKiller28/build_scripts/mi439/evo_a14.sh | bash"
-
+```
 
 • MitsOS
 ```
