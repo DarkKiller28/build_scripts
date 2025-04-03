@@ -51,10 +51,14 @@ crave run --clean --no-patch -- "curl https://raw.githubusercontent.com/DarkKill
 ```
 crave run --clean --no-patch -- "curl https://raw.githubusercontent.com/DarkKiller28/build_scripts/pixelos_a14.sh | bash"
 ```
-• EvolutionX
+• EvolutionX A15
 ```
 crave run --clean --no-patch -- "curl -v https://raw.githubusercontent.com/DarkKiller28/build_scripts/mi439/evo_a15.sh | bash"
 ```
+
+• EvolutionX A14
+crave run --clean --no-patch -- "curl -v https://raw.githubusercontent.com/DarkKiller28/build_scripts/mi439/evo_a14.sh | bash"
+
 
 • MitsOS
 ```
