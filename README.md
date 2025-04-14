@@ -4,7 +4,7 @@
 
 • AxionOS
 ```
-crave run --clean --no-patch -- "curl https://raw.githubusercontent.com/DarkKiller28/build_scripts/axion_15.sh | bash"
+https://raw.githubusercontent.com/DarkKiller28/build_scripts/refs/heads/mi439/axion_a15.sh
 ```
 
 • Crdroid A12
