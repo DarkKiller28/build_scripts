@@ -10,7 +10,7 @@ echo "Repo init success"
 echo "=================="
 
 # Local manifests
-git clone https://github.com/DarkKiller28/local_manifests_clo .repo/local_manifests -b horizondroid-15-qpr2
+git clone https://github.com/DarkKiller28/local_manifests_mi439-clo .repo/local_manifests -b horizondroid-15-qpr2
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
