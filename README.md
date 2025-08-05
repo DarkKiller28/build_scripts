@@ -34,7 +34,7 @@ crave run --clean --no-patch -- "curl https://raw.githubusercontent.com/DarkKill
 
 • HorizonDroid
 ```
-crave run --clean --no-patch -- "curl https://raw.githubusercontent.com/DarkKiller28/build_scripts/horizondroid_a15.sh | bash"
+crave run --clean --no-patch -- "curl -v https://raw.githubusercontent.com/DarkKiller28/build_scripts/mi439/horizon_a15.sh | bash"
 ```
 
 • PenguinOS
