@@ -37,6 +37,11 @@ crave run --clean --no-patch -- "curl https://raw.githubusercontent.com/DarkKill
 crave run --clean --no-patch -- "curl -v https://raw.githubusercontent.com/DarkKiller28/build_scripts/mi439/horizon_a15.sh | bash"
 ```
 
+• InfinityX 16
+```
+crave run --clean --no-patch -- "curl -L https://raw.githubusercontent.com/DarkKiller28/build_scripts/mi439/infinityx_a16.sh | bash"
+```
+
 • PenguinOS
 ```
 crave run --clean --no-patch -- "curl https://raw.githubusercontent.com/DarkKiller28/build_scripts/penguin_a14.sh | bash"
