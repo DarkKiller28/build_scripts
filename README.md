@@ -52,6 +52,11 @@ crave run --clean --no-patch -- "curl https://raw.githubusercontent.com/DarkKill
 crave run --clean --no-patch -- "curl https://raw.githubusercontent.com/DarkKiller28/build_scripts/tpp_a14.sh | bash"
 ```
 
+• Miku UI
+```
+crave run --clean --no-patch -- "curl -L https://raw.githubusercontent.com/DarkKiller28/build_scripts/mi439/miku_a15 | bash"
+```
+
 • PixelOS
 ```
 crave run --clean --no-patch -- "curl https://raw.githubusercontent.com/DarkKiller28/build_scripts/pixelos_a14.sh | bash"
