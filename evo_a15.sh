@@ -26,6 +26,8 @@ echo "============="
 export BUILD_USERNAME=DarkKiller28
 export BUILD_HOSTNAME=crave
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
+export BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE=true
+export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 echo "======= Export Done ======"
 
 # Set up build environment
