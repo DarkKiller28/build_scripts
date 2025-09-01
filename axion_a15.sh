@@ -33,7 +33,7 @@ source build/envsetup.sh
 echo "============="
 
 # Lunch
-axion mi439 va
+brunch mi439 va
 
 # Build
 mka bacon
